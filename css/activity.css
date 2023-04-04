@@ -1,0 +1,92 @@
+.table-head{
+	width: 100%;
+	color: #19B3D3;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.activity-table .table-head h6{
+	width: calc(100%/6);
+   
+}
+
+.activity-table .table{
+	width: 100%;
+	background: #fff;
+	height: 50px;	
+	cursor: pointer; 
+    position: relative;
+	display: flex; 
+	justify-content: space-between;
+    text-align: center;
+	box-shadow: 0px 6px 30px rgba(0,0,0, .16);
+}
+
+.activity-table .list{
+    padding: 0px;
+} 
+
+.activity-table .list .prog{
+    flex-grow: 1; 
+}
+
+.activity-table .table:hover{
+	top: -2px;
+}
+
+.activity-table .table div{ 
+	padding: 5px; 
+	overflow: hidden;  
+	width: calc(100%/6);
+}
+
+ 
+.activity-table .table div img{
+	width: 43px;
+	height: 43px; 	 
+	border-radius: 50%;
+    border: 2px solid #d4c2fc;
+}
+
+.activity-table .table div span{ 
+	border-radius: 10px;
+	font-size: 12px;
+
+}
+
+.activity-table .table div i{
+	font-size: 18px; 
+}
+ 
+
+.activity_sec{
+	display: flex;
+	justify-content: space-between;
+}
+
+.activity_sec .act{
+	width: 80%;
+}
+
+
+.activity_sec .sidelist{
+	width: 20%;
+	background-color: #fff;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 20px;
+}
+
+.sidelist .list-group li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	border-bottom: 1px solid #e9ecef;
+}
+
+.sidelist .list-group li span{
+	background: #00a0e9;
+}
+
+ 

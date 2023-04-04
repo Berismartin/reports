@@ -1,0 +1,20 @@
+ 
+.notice span:first-child{ 
+    top: 7px;
+    left: 0;
+    bottom: 4px;
+    width: 30%;
+    padding-top: 3%;
+    padding-left: 5%;
+    position: absolute;
+    display: inline-block;
+    margin: 0!important; 
+    color: #4e9944;
+    border-right: 1px solid #4e9944;
+    font-size: 20px;
+}
+
+
+.notice span:last-child{
+    margin-left: 20px;
+}

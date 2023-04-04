@@ -1,0 +1,114 @@
+/* display none to all divs */
+.streams_all{
+    margin-top: 60px;
+}
+
+/* class-teacher stream table css */
+
+ul{
+	list-style-type: none;
+}
+.table-head{
+	width: 100%;
+	color: #19B3D3;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.class-table .table-head h6{
+	width: calc(100%/6);
+   
+}
+
+.class-table .table{
+	width: 100%;
+	background: #fff;
+	height: 50px;	
+	cursor: pointer; 
+    position: relative;
+	display: flex; 
+	justify-content: space-between;
+    text-align: center;
+	box-shadow: 0px 6px 30px rgba(0,0,0, .16);
+}
+
+.class-table .table:hover{
+	top: -2px;
+}
+
+.class-table .table div{ 
+	padding: 5px; 
+	overflow: hidden;
+	margin-right: 10px;
+	padding-bottom: 10px; 
+	width: calc(100%/6);
+}
+
+ 
+.class-table .table div img{
+	width: 43px;
+	height: 43px; 	 
+	border-radius: 50%;
+    border: 2px solid #d4c2fc;
+}
+
+.class-table .table div span{ 
+	border-radius: 10px;
+	font-size: 12px;
+
+}
+
+.class-table .table div i{
+	font-size: 18px; 
+}
+
+.green{
+	background: #7BCA78;
+	border: 1px solid green;
+}
+
+
+/* classes  stylings */
+
+.classes{
+    border-right: 1px solid #d4c2fc;
+    width: 40%;
+}
+
+.class-actions{
+    border-right: 1px solid #d4c2fc;
+}
+
+.streams{
+	 width: 60%;
+}
+
+.streams .badge{
+    color: #22a7f0;
+    background: #d4c2fc; 
+}
+
+.streams .badge i{
+	cursor: pointer;
+}
+
+.stream_add input {
+    border: 1px solid #d4c2fc;
+    display: inline-block;
+    width: 80%; 
+}
+
+.class-actions{ 
+	width: 80%;
+}
+
+.class-details{
+	font-size: 14px;
+
+}
+
+.class-details p{
+	display: inline-block;
+	line-height: 5px;
+}

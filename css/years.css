@@ -1,0 +1,57 @@
+.years_all{
+    margin-top: 60px;
+    height: 80%;
+}
+
+.years{
+    border-right: 1px solid #d4c2fc;
+    width: 50%;
+}
+
+.year-add{
+    height:0;
+    overflow: hidden;
+    transition: .3s;
+    padding: 2px 50px;
+}
+
+.year-add-on{
+    height: 140px;
+}
+
+.year-update{
+    height:0;
+    overflow: hidden;
+    transition: .3s;
+    padding: 2px 50px;
+}
+
+.year-update-on{
+    height: 140px;
+}
+
+.terms{
+    width: 50%;
+}
+
+.term-add{
+    height:0;
+    overflow: hidden;
+    transition: .3s;
+    padding: 2px 50px;
+}
+
+.term-add-on{
+    height: 140px;
+}
+
+.term-update{
+    height:0;
+    overflow: hidden;
+    padding: 2px 50px;
+    transition: .3s;
+}
+
+.term-update-on{
+    height: 140px;
+}

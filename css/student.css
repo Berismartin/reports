@@ -1,0 +1,201 @@
+/* display none to all divs */
+.student_all{
+    margin-top: 60px;
+}
+
+
+
+.student_all>*{
+    display:none;
+    margin-top: 30px;
+    padding: 0px;
+}
+.student_all>*:first-child{
+    display:block;
+}
+
+#back{
+    cursor: pointer;
+}
+
+ 
+
+
+button{
+    border: 0px;
+    outline: none;
+    padding: 4px 9px;
+    border-radius: 10px;
+    font-size: 13px;
+  }
+
+.submit:hover{
+    background: #209fe4;
+
+}
+ 
+ .action-bar{
+     position: absolute;
+     top: 0;
+     right: 0; 
+     width: 400px;
+     padding-top: 10px; 
+     padding-right: 10px; 
+     display: flex;
+     justify-content: flex-end;  
+ }
+
+ .button-add{
+    background: #bfade7;
+    color: #fff;
+    margin: 3px;
+    box-shadow: 0px 2px 2px rgba(0,0,0, .3);
+    
+}
+
+.button-add:hover{
+   box-shadow: 0px 4px 4px rgba(0,0,0, .3);
+   
+}
+
+
+
+/* custom form css */
+
+.std_form{
+    display: flex; 
+    justify-content: space-around;
+    
+}
+ 
+select{
+    color: #333;
+    background: #f7f7f7;
+    width: 100%; 
+}
+
+.std_form .set{ 
+    width: 90.33%; 
+    margin: 10px 3%; 
+    position: relative;
+} 
+ 
+
+.form_Set_right{ 
+    flex-grow: .4;
+    border-radius: 10px;
+    border: 1px solid #d4c2fc;
+    margin: 10px;
+    padding: 7px 4px;
+}
+
+.student_sidefor span{
+    font-size: 13px; 
+}
+
+
+.set_optionals, .set_entry_data{
+    display: none;
+}
+
+.set_entry_data span{
+    display: block;
+    height: 1px;
+    background: #d4c2fc;
+}
+
+/* the labels */
+
+.student_add_section label{
+    font-weight: bold;
+}
+
+.student_sidefor label::after {
+    content: "*";
+    width: 1.5em;
+    margin-left: 4px;
+    color: red;
+ }
+
+
+ /* student multiple form */
+ 
+ .student_sidefor label::after {
+    content: "*";
+    width: 1.5em;
+    margin-left: 4px;
+    color: red;
+ }
+
+.student_mult{
+    margin: 20px;  
+}
+
+.student_mult img{
+    height: 100%;
+    width: 100%;
+
+}
+
+ .student_mult div select, input {
+    display: inline-block;
+    width: 40%;
+    margin: 10px auto;
+ }
+
+ .generate{
+    border: 1px solid #000;
+    margin-right: 30px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+ 
+/*  edit section  dont let the left confuse*/
+
+/* teachers edit page */
+
+
+.teacher_profile{
+    display: flex;
+    justify-content: space-between;
+}
+
+.teacher_profile .left{ 
+    width: 25%;
+}
+
+
+.teacher_profile_left{
+    border: 1px solid #D4C2FC;
+    border-radius: 5px;
+}
+
+.student_profile_left img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.student_profile_left input{
+    width: 70%;
+    margin: auto;
+}
+
+
+.student_profile .right{
+    flex-grow: 3;
+    margin-left: 40px;
+}
+
+.student_profile_right{
+    border: 1px solid #D4C2FC;
+    border-radius: 5px;
+    
+}
+
+.student_profile_right .set{ 
+    width: 90.33%; 
+    margin: 10px 3%; 
+    position: relative;
+} 

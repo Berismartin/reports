@@ -1,0 +1,46 @@
+/* tabs */
+.tab{
+    background: #fff;
+    border: 1px solid #D4C2FC;
+    margin: 10px;
+}
+
+ .das i{
+     font-size: 50px;
+     position: relative;
+     transition: .3s;
+ }
+
+ /* custom tabs */
+ 
+.card-1 h3{
+    color: #3f51b5;
+    font-weight: bold; 
+}
+ 
+ 
+
+
+/* custom texts */
+
+.card-2 h3{
+    color: #A19F2Bff;
+    font-weight: bold;
+}
+
+.card-3 h3{
+    color: #4caf50;
+    font-weight: bold;
+}
+
+.card-4 h3{
+    color: #DE281Bff;
+    font-weight: bold;
+}
+
+
+/* hoovers */
+
+.card-1:hover i, .card-2:hover i, .card-3:hover i, .card-4:hover i{
+    font-size: 60px;
+}
